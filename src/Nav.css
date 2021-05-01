@@ -22,11 +22,11 @@
   object-fit: contain;
 }
 .nav_avatar {
-  width: 50px;
+  width: 40px;
   position: fixed;
   right: 20px;
   object-fit: contain;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 
