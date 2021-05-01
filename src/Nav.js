@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Nav.css";
+import Logo from './img/Meflix.png'
+import User from './img/user.png'
 
 function Nav() {
   const [show, handleShow] = useState(false);
@@ -19,14 +21,14 @@ function Nav() {
     //  let a = true;
     <div className={`nav ${show && "nav_black"}`}>
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+        src={Logo}
         className="nav_logo"
         alt="netflix logo"
       />
       <img
         className="nav_avatar"
         alt="nav_avatar"
-        src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
+        src={User}
       />
       <div>
 

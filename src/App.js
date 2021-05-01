@@ -25,6 +25,9 @@ function App() {
               fetchUrl={requests.fetchRomanceMovies}
             />
             <Row title="Documentaries" fetchUrl={requests.fetchTrending} />
+            <footer>
+        <span>Created By <a href="#">Jaime David</a> | <span>©</span> 2021 All rights reserved.</span>
+    </footer>
      
       </div>
 

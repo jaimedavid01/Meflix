@@ -18,14 +18,15 @@
   padding-bottom: 20px;
   position: fixed;
   left: 20px;
-  width: 100px;
+  width: 150px;
   object-fit: contain;
 }
 .nav_avatar {
-  width: 30px;
+  width: 50px;
   position: fixed;
   right: 20px;
   object-fit: contain;
+  padding-bottom: 20px;
 }
 
 
